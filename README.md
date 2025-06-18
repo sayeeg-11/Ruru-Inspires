@@ -34,8 +34,6 @@ ruru-inspires/
 - │   ├── inspiration.html
 - │   └── life-lessons.html
 - │
-- ├── assets/                  # Images, icons, and brand assets
-- │
 - └── README.md                # This file
 
 ---
@@ -72,7 +70,7 @@ Ruru Inspires is born from a deep love for **writing**, **self-expression**, and
 
 | Home Page | Blog Sample | Dashboard |
 |-----------|-------------|-----------|
-| ![Home](assets/screenshots/home.png) | ![Blog](assets/screenshots/blog.png) | ![Dashboard](assets/screenshots/dashboard.png) |
+| ![Home](images/home.png) | ![Blog](images/blog.png) | ![Dashboard](images/dashboard.png) |
 
 
 🔗 GitHub: [@sayeeg-11](https://github.com/sayeeg-11)
