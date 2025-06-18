@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/370928721c.js" crossorigin="anonymous"></script>
+   
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Candal&family=Karla:ital,wght@0,200..800;1,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!--  custom Styling -->
+<link rel="stylesheet" href="css/style.css">
+
+
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <div class =" logo">
+            <h1 class="logo-text"><span>Ruru</span>Inspires</h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+           <!--  <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li>
+                <a href="#">
+                   <i class="fa fa-user"></i> 
+                   User
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <ul>
+                  <!--  <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class = "logout">Logout</a></li> -->
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="auth-content">
+        <form action="register.html" method="post">
+            <h2 class="form-title">Register</h2>
+
+           <!-- <div class="msg error">
+                <li>Username required</li>
+            </div> -->
+
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" class="text-input">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" class="text-input">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" class="text-input">
+            </div>
+            <div>
+                <label>Password Confirmation</label>
+                <input type="password" name="passwordConf" class="text-input">
+            </div>
+            <div>
+                <button type="submit" class="register-btn ">Register</button>
+            </div>
+            <p>Or <a href="login.html">Sign In</a></p>
+        </form>
+
+    </div>
+
+    <!-- JQUERY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Custon Script-->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
+
